@@ -1,0 +1,42 @@
+.dashboardContainer{
+    position: relative;
+    z-index: 1;
+}
+.flashMessagesContainer {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    padding: 10px;
+    z-index: 7;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+}
+.flashMessageContainer{
+    position: relative;
+    padding: 10px;
+    border: 1px solid rgb(219, 215, 215);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+.flashMessageContainer .close{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(236, 235, 235);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.flashText{
+    font-size: 12px;
+}

@@ -1,0 +1,10 @@
+.searchItem {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.searchItem:hover {
+    background-color: rgb(240, 239, 239);
+}

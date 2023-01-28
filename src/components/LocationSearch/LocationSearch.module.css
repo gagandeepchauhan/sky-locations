@@ -1,0 +1,54 @@
+.searchContainer {
+    width: 90%;
+    max-width: 600px;
+    text-align: left;
+    position: relative;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.searchContainer input {
+    border-radius: 20px;
+    padding: 8px 12px;
+    border: 1px solid lightgrey;
+    outline: none;
+}
+
+.searchContainer input:active {
+    outline: none;
+}
+
+.error {
+    color: red;
+}
+
+.locationName {
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+    position: relative;
+}
+
+.locationName:hover::after {
+    content: 'Copy';
+    z-index: 3;
+    padding: 5px 8px;
+    margin-left: 5px;
+    background-color: rgb(50, 48, 48);
+    color: #fff;
+    border-radius: 5px;
+    font-size: small;
+}
+
+/* .loader{
+
+} */
+
+@media (max-width:500px) {
+    .heading {
+        font-size: 32px;
+    }
+}

@@ -1,0 +1,21 @@
+.homeIllustration {
+    height: 250px;
+    width: 250px;
+    display: block;
+}
+
+.homeIllustration + p {
+    color: grey;
+    font-size: 0.8rem;
+}
+
+.lightPara {
+    color: grey;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 550px) {
+    .textContainer {
+        font-size: 30px;
+    }
+}
