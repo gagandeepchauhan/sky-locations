@@ -45,9 +45,9 @@ const SearchResultList: React.FC<IProps> = ({
                     Recent searches
                 </div>
             }
-            {locations?.map(loc => (
+            {locations?.map((loc, idx) => (
                 <SearchResultItem
-                    key={loc.osm_id || loc.place_id}
+                    key={`${loc.osm_id || loc.place_id}_${idx}`}
                     location={loc}
                     hideList={hideList}
                 />
